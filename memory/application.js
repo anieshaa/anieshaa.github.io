@@ -6,5 +6,5 @@ $(document).ready(function(){
   }
   $('.card').click(function(){
     $(this).find('p').css("opacity", 1);
-  }
+  });
 });
