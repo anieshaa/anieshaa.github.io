@@ -1,4 +1,4 @@
-(document).ready(function(){
+$(document).ready(function(){
   var guess = 0;
   //find a way for the program to choose a random number between 1 and 100, save this as a variable
   var comp_integer = Math.floor(Math.random()*100);
